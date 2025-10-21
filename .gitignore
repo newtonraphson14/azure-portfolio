@@ -96,4 +96,7 @@ local.settings.json
 # Azurite artifacts
 __blobstorage__
 __queuestorage__
-__azurite_db*__.json
+__azurite_db*__.json"logs/" 
+"local.settings.json" 
+"node_modules/" 
+".vscode/" 
