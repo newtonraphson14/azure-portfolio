@@ -11,19 +11,6 @@ This is a static portfolio project deployed on **Azure Static Web Apps**.
 - Deployed via **Azure Static Web Apps** with GitHub Actions
 - Workflow configured with `skip_app_build: true` to skip unnecessary build steps
 
-## Folder Structure
-portfolio/
-├─ src/
-│ ├─ functions/
-│ │ └─ ContactFormFunction.js
-│ ├─ index.html
-│ ├─ styles.css
-│ └─ script.js
-├─ .github/
-│ └─ workflows/
-│ └─ azure-static-web-apps-*.yml
-└─ local.settings.json
-
 ## Local Development
 1. Clone repository:
    ```bash
@@ -31,11 +18,15 @@ portfolio/
    cd azure-portfolio
 
 ## Install dependencies:
-- npm install
+```bash
+npm install
 - npm install -g @azure/static-web-apps-cli
+```
 
 ## Run locally:
-- swa start
+```bash
+swa start
+```
 
 ## Local settings file: local.settings.json
 
